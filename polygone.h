@@ -11,7 +11,6 @@ public:
     polygone();
     polygone(int n);
 
-
     void afficherCaracteristiques();
 
 };

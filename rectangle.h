@@ -14,6 +14,9 @@ public:
     void setLargeur(int l);
     void setLongeur(int l);
 
+    int getLongueur();
+    int getLargeur();
+
     int perimetre();
 
     void afficherCaracteristiques();

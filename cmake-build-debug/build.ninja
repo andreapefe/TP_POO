@@ -96,6 +96,18 @@ build CMakeFiles/TP1.dir/rectangle.cpp.o: CXX_COMPILER__TP1_Debug /home/andrea/D
   OBJECT_DIR = CMakeFiles/TP1.dir
   OBJECT_FILE_DIR = CMakeFiles/TP1.dir
 
+build CMakeFiles/TP1.dir/carre.cpp.o: CXX_COMPILER__TP1_Debug /home/andrea/Documentos/POO/TP1/carre.cpp || cmake_object_order_depends_target_TP1
+  DEP_FILE = CMakeFiles/TP1.dir/carre.cpp.o.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles/TP1.dir
+  OBJECT_FILE_DIR = CMakeFiles/TP1.dir
+
+build CMakeFiles/TP1.dir/TriangleEquilateral.cpp.o: CXX_COMPILER__TP1_Debug /home/andrea/Documentos/POO/TP1/TriangleEquilateral.cpp || cmake_object_order_depends_target_TP1
+  DEP_FILE = CMakeFiles/TP1.dir/TriangleEquilateral.cpp.o.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles/TP1.dir
+  OBJECT_FILE_DIR = CMakeFiles/TP1.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target TP1
@@ -104,7 +116,7 @@ build CMakeFiles/TP1.dir/rectangle.cpp.o: CXX_COMPILER__TP1_Debug /home/andrea/D
 #############################################
 # Link the executable TP1
 
-build TP1: CXX_EXECUTABLE_LINKER__TP1_Debug CMakeFiles/TP1.dir/main.cpp.o CMakeFiles/TP1.dir/figure.cpp.o CMakeFiles/TP1.dir/polygone.cpp.o CMakeFiles/TP1.dir/rectangle.cpp.o
+build TP1: CXX_EXECUTABLE_LINKER__TP1_Debug CMakeFiles/TP1.dir/main.cpp.o CMakeFiles/TP1.dir/figure.cpp.o CMakeFiles/TP1.dir/polygone.cpp.o CMakeFiles/TP1.dir/rectangle.cpp.o CMakeFiles/TP1.dir/carre.cpp.o CMakeFiles/TP1.dir/TriangleEquilateral.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/TP1.dir
   POST_BUILD = :

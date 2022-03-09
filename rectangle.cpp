@@ -22,6 +22,16 @@ void rectangle::setLongeur(int l) {
   largeur = l;
 };
 
+int rectangle::getLongueur(){
+    return longeur;
+};
+
+int rectangle::getLargeur() {
+    return largeur;
+}
+
+int getLargeur();
+
 void rectangle::afficherCaracteristiques() {
     polygone::afficherCaracteristiques();
     printf("Largeur : %d \n" ,largeur);

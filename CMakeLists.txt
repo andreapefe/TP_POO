@@ -3,4 +3,4 @@ project(TP1)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(TP1 main.cpp figure.cpp figure.h polygone.cpp polygone.h rectangle.cpp rectangle.h)
+add_executable(TP1 main.cpp figure.cpp figure.h polygone.cpp polygone.h rectangle.cpp rectangle.h carre.cpp carre.h TriangleEquilateral.cpp TriangleEquilateral.h)
