@@ -4,6 +4,9 @@
 
 class figure {
 public:
+
+    figure();
+
     virtual int perimetre()=0;
 
     virtual void afficherCaracteristiques()=0;
