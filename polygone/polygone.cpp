@@ -9,5 +9,6 @@ polygone::polygone() {
 polygone::polygone(int n):nbCotes(n){};
 
 void polygone::afficherCaracteristiques(){
+    printf("Je suis un polygone \n");
     std::cout << "Nombre de Coteś: " << nbCotes << std::endl;
 };

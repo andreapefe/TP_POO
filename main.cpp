@@ -1,8 +1,9 @@
 #include <iostream>
-#include "rectangle.h"
-#include "carre.h"
-#include "TriangleEquilateral.h"
+#include "polygone/rectangle.h"
+#include "polygone/carre.h"
+#include "polygone/TriangleEquilateral.h"
 #include "figure.h"
+#include "cercle.h"
 
 int main() {
     rectangle rect;
@@ -21,6 +22,10 @@ int main() {
     tri.setCote(3);
     f = &tri;
     f->afficherCaracteristiques();
+
+    cercle ce;
+    ce.setRayon(7);
+    ce.afficherCaracteristiques();
 
     return 0;
 }

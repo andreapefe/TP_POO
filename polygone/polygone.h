@@ -1,7 +1,7 @@
 #ifndef TP1_POLYGONE_H
 #define TP1_POLYGONE_H
 
-#include "figure.h"
+#include "../figure.h"
 
 
 class polygone: public figure {
