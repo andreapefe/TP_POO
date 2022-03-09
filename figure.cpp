@@ -3,6 +3,6 @@
 
 figure::figure() {
 
-    printf("Je ne suis une figure");
+    printf("Je suis une figure \n");
 
 }

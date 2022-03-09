@@ -4,11 +4,13 @@
 #include "figure.h"
 
 
-class polygone: figure {
+class polygone: public figure {
 public:
     int nbCotes;
 
+    polygone();
     polygone(int n);
+
 
     void afficherCaracteristiques();
 
