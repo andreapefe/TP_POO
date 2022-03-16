@@ -5,8 +5,6 @@
 class figure {
 public:
 
-
-
     figure();
 
     virtual int perimetre()=0;
@@ -20,7 +18,5 @@ private:
     static int nbfigures;
 
 };
-
-
 
 #endif //TP1_FIGURE_H
