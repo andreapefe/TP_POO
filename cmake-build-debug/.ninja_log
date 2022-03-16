@@ -1,0 +1,15 @@
+# ninja log v5
+1	182	1646844711421407800	CMakeFiles/TP1.dir/carre.cpp.o	f939e20e5ddcc6dc
+1	135	1647448980689921622	CMakeFiles/TP1.dir/Coloriable.cpp.o	11449d906faadecd
+1	288	1647447378557885782	CMakeFiles/TP1.dir/figure.cpp.o	82c062162e0ed917
+1	243	1647447378513885781	CMakeFiles/TP1.dir/polygone/polygone.cpp.o	e4c540f5b47003f8
+0	191	1647449581289935057	CMakeFiles/TP1.dir/cercle.cpp.o	a46ad39316900a62
+0	11	1647450690757959876	build.ninja	3fbabfdb8c2fbec7
+1	208	1647447378477885780	CMakeFiles/TP1.dir/polygone/rectangle.cpp.o	4039d4a331c50aa6
+191	228	1647449581325935058	TP1	963ccbb2515edee4
+0	189	1646844711425407800	CMakeFiles/TP1.dir/polygone.cpp.o	d505b85101500b4c
+0	194	1647449332477929491	CMakeFiles/TP1.dir/main.cpp.o	86d4fc4c8a4f31d3
+1	189	1646844711429407800	CMakeFiles/TP1.dir/rectangle.cpp.o	3dfdebf958cf25ef
+1	297	1647447378565885782	CMakeFiles/TP1.dir/polygone/TriangleEquilateral.cpp.o	4ad4326b785977ef
+0	178	1646845034097420229	CMakeFiles/TP1.dir/TriangleEquilateral.cpp.o	1df8076f98e6221f
+1	205	1647447378473885780	CMakeFiles/TP1.dir/polygone/carre.cpp.o	87ad706192217b51
