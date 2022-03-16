@@ -114,6 +114,12 @@ build CMakeFiles/TP1.dir/cercle.cpp.o: CXX_COMPILER__TP1_Debug /home/andrea/Docu
   OBJECT_DIR = CMakeFiles/TP1.dir
   OBJECT_FILE_DIR = CMakeFiles/TP1.dir
 
+build CMakeFiles/TP1.dir/Coloriable.cpp.o: CXX_COMPILER__TP1_Debug /home/andrea/Documentos/POO/TP1/Coloriable.cpp || cmake_object_order_depends_target_TP1
+  DEP_FILE = CMakeFiles/TP1.dir/Coloriable.cpp.o.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles/TP1.dir
+  OBJECT_FILE_DIR = CMakeFiles/TP1.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target TP1
@@ -122,7 +128,7 @@ build CMakeFiles/TP1.dir/cercle.cpp.o: CXX_COMPILER__TP1_Debug /home/andrea/Docu
 #############################################
 # Link the executable TP1
 
-build TP1: CXX_EXECUTABLE_LINKER__TP1_Debug CMakeFiles/TP1.dir/main.cpp.o CMakeFiles/TP1.dir/figure.cpp.o CMakeFiles/TP1.dir/polygone/polygone.cpp.o CMakeFiles/TP1.dir/polygone/rectangle.cpp.o CMakeFiles/TP1.dir/polygone/carre.cpp.o CMakeFiles/TP1.dir/polygone/TriangleEquilateral.cpp.o CMakeFiles/TP1.dir/cercle.cpp.o
+build TP1: CXX_EXECUTABLE_LINKER__TP1_Debug CMakeFiles/TP1.dir/main.cpp.o CMakeFiles/TP1.dir/figure.cpp.o CMakeFiles/TP1.dir/polygone/polygone.cpp.o CMakeFiles/TP1.dir/polygone/rectangle.cpp.o CMakeFiles/TP1.dir/polygone/carre.cpp.o CMakeFiles/TP1.dir/polygone/TriangleEquilateral.cpp.o CMakeFiles/TP1.dir/cercle.cpp.o CMakeFiles/TP1.dir/Coloriable.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/TP1.dir
   POST_BUILD = :

@@ -3,8 +3,7 @@
 #include "rectangle.h"
 
 class carre : public rectangle{
-private:
-    int cote;
+
 public:
 
     carre();

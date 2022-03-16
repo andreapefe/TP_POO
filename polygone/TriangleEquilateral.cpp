@@ -22,4 +22,5 @@ void TriangleEquilateral::afficherCaracteristiques() {
     polygone::afficherCaracteristiques();
     printf("Je suis un triangle \n");
     printf("Côté : %d \n" ,cote);
+    printf("\n");
 }

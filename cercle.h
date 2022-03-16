@@ -1,8 +1,10 @@
 #ifndef TP1_CERCLE_H
 #define TP1_CERCLE_H
 #include "figure.h"
+#include "Coloriable.h"
 
-class cercle : public figure{
+
+class cercle : public figure, public Coloriable{
 public:
     cercle();
 

@@ -3,8 +3,9 @@
 #include "figure.h"
 #define PI 3,1416
 
-cercle::cercle() {
+cercle::cercle() : Coloriable("bleu") {
     printf("Je suis un cercle \n");
+
 }
 
 void cercle::setRayon(int r) {
@@ -22,5 +23,6 @@ int cercle::perimetre() {
 void cercle::afficherCaracteristiques() {
     printf("Je suis un cercle \n");
     std::cout << "Rayon: " << rayon << std::endl;
+    printf("\n");
 }
 

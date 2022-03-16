@@ -36,4 +36,5 @@ void rectangle::afficherCaracteristiques() {
     polygone::afficherCaracteristiques();
     printf("Largeur : %d \n" ,largeur);
     printf("Longeure : %d \n", longeur);
+    printf("\n");
 }

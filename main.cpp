@@ -6,6 +6,24 @@
 #include "cercle.h"
 
 int main() {
+
+    figure ** tableau = new figure*[10];
+
+    carre * c = new carre;
+    c->setCote(5);
+    tableau[0] = c;
+    // c->afficherCaracteristiques();
+   // tableau-> afficherCaracteristiques();
+    tableau[1] = new cercle;
+    tableau[2] = new TriangleEquilateral;
+
+    for(int i = 0; i < 3; i++){
+        tableau[i]->afficherCaracteristiques();
+    }
+
+    tableau[1]->afficheNb();
+
+/*
     rectangle rect;
     carre c;
     rect.setLargeur(4);
@@ -25,7 +43,7 @@ int main() {
 
     cercle ce;
     ce.setRayon(7);
-    ce.afficherCaracteristiques();
+    ce.afficherCaracteristiques();*/
 
     return 0;
 }

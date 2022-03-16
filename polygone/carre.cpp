@@ -4,8 +4,8 @@
 carre::carre(){
 
     printf("Je suis un carré \n");
-    nbCotes = 4; //rectangle
     this->setLongeur(getLargeur());
+
 };
 
 void carre::setCote(int l){
@@ -16,7 +16,8 @@ void carre::setCote(int l){
 void carre::afficherCaracteristiques() {
     this->polygone::afficherCaracteristiques();
     printf("Je suis un carré \n");
-    printf("Côté : %d \n" ,cote);
+    printf("Côté : %d \n" ,getLargeur());
+    printf("\n");
 }
 
 
