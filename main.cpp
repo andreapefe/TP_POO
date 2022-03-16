@@ -14,7 +14,7 @@ int main() {
     tableau[0] = c;
     // c->afficherCaracteristiques();
    // tableau-> afficherCaracteristiques();
-    tableau[1] = new cercle;
+    tableau[1] = new cercle("bleu");
     tableau[2] = new TriangleEquilateral;
 
     for(int i = 0; i < 3; i++){
@@ -22,6 +22,11 @@ int main() {
     }
 
     tableau[1]->afficheNb();
+
+    //IL faut penser à eliminer nos tableaux avant la fin du programme pour une bonne gestion de la mémoire.
+    for(int i = 0; i < 3; i++){
+        delete tableau[i];
+    }
 
 /*
     rectangle rect;

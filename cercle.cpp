@@ -3,9 +3,9 @@
 #include "figure.h"
 #define PI 3,1416
 
-cercle::cercle() : Coloriable("bleu") {
+cercle::cercle(string couleur) : Coloriable(couleur) {
     printf("Je suis un cercle \n");
-
+    printf("Couleur : %s \n", couleur.c_str());
 }
 
 void cercle::setRayon(int r) {

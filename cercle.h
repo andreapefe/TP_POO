@@ -6,7 +6,7 @@
 
 class cercle : public figure, public Coloriable{
 public:
-    cercle();
+    cercle(string couleur);
 
     void setRayon(int r);
     int getRayon();
