@@ -4,7 +4,7 @@
 
 rectangle::rectangle(){
 
-    printf("Je suis un rectangle \n");
+    //printf("Je suis un rectangle \n");
     nbCotes = 4; //rectangle
     longeur = 0;
     largeur = 0;

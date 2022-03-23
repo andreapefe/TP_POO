@@ -5,7 +5,7 @@ int figure::nbfigures = 0;
 
 figure::figure() {
 
-    printf("Je suis une figure \n");
+    //printf("Je suis une figure \n");
     nbfigures++;
 
 }

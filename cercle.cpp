@@ -4,7 +4,7 @@
 #define PI 3,1416
 
 cercle::cercle(string couleur) : Coloriable(couleur) {
-    printf("Je suis un cercle \n");
+   // printf("Je suis un cercle \n");
     printf("Couleur : %s \n", couleur.c_str());
 }
 

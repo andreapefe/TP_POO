@@ -8,12 +8,14 @@
 
 int main() {
 
-    file<int> f;
-    f.inserer(8);
-    std::cout << f.valeur() << std::endl;
-    f.supprimer(3);
+    file<figure*> f;
+    carre * c = new carre;
+    c->setCote(5);
+    f.inserer(c);
+    f.valeur()->afficherCaracteristiques();
+    f.supprimer(1);
     //std::cout << f.valeur() << std::endl;
-
+    delete c;
     /*
     figure ** tableau = new figure*[10];
 

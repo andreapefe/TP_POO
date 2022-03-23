@@ -3,7 +3,7 @@
 
 carre::carre(){
 
-    printf("Je suis un carré \n");
+    //printf("Je suis un carré \n");
     this->setLongeur(getLargeur());
 
 };

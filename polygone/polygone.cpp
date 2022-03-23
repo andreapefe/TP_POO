@@ -3,7 +3,7 @@
 
 //Constructeur
 polygone::polygone() {
-    printf("Je suis un polygone \n");
+    //printf("Je suis un polygone \n");
 };
 
 polygone::polygone(int n):nbCotes(n){};

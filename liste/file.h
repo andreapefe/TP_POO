@@ -28,8 +28,9 @@ public:
         //Selon le cas on fait pointer le premier et dernier element
         if (nbElement == 0){
             premier = &nouvelle;
-            nbElement++;
             dernier = &nouvelle;
+            nbElement++;
+
         } else {
             dernier->next = &nouvelle;
             dernier = &nouvelle;
@@ -37,33 +38,44 @@ public:
         }
     };
 
+    //FIFO
     void supprimer(int nb){
-        if (nbElement == 0){
-
-        } else if (nbElement == 1) {
-            cellule<T> * aux = dernier;
-            premier = NULL;
-            dernier = NULL;
-            delete aux;
-            nbElement = 0;
-        } else {
-            cellule<T> * aux = premier;
-            premier = premier->next;
-            aux->next = NULL;
-            delete aux;
-
-            dernier = NULL;
-            nbElement = 0;
+        if (nb > nbElement){
+            std::cout << "ELEMENT NON EXISTANT" << std::endl;
         }
+        else {
+            if (nbElement == 0){
+                std::cout << "FILE VIDE" << std::endl;
+            } else if (nbElement == 1) {
+                cellule<T> * aux = dernier;
+                premier = NULL;
+                dernier = NULL;
+                aux->next = NULL;
+                nbElement = 0;
+            } else {
+                //Supprime element quelconque
+                cellule<T> * aux = premier;
+                premier = premier->next;
+                aux->next = NULL;
+                nbElement--;
+                dernier = NULL;
+                nbElement = 0;
+            }
+        }
+
     };
 
-    bool vide();
+    bool vide(){
+        return (nbElement == 0);
+    };
 
     T valeur(){
         return premier->element;
     };
 
-    int nbElements();
+    int nbElements(){
+        return nbElement;
+    }
 
 };
 
