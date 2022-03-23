@@ -1,16 +1,21 @@
 #ifndef TP1_CELLULE_H
 #define TP1_CELLULE_H
+#include <iostream>
 
 
-class cellule {
+template <typename T> class cellule {
 protected:
     cellule * next;
-    cellule * prev;
+    T element;
 
 public:
-    cellule();
+
+    template <typename Y> friend class file;
+
+    cellule(T ele){
+        next = NULL;
+        element = ele;
+    }
 
 };
-
-
 #endif //TP1_CELLULE_H

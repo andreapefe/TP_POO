@@ -4,9 +4,17 @@
 #include "polygone/TriangleEquilateral.h"
 #include "figure.h"
 #include "cercle.h"
+#include "liste/file.h"
 
 int main() {
 
+    file<int> f;
+    f.inserer(8);
+    std::cout << f.valeur() << std::endl;
+    f.supprimer(3);
+    //std::cout << f.valeur() << std::endl;
+
+    /*
     figure ** tableau = new figure*[10];
 
     carre * c = new carre;
@@ -28,7 +36,7 @@ int main() {
         delete tableau[i];
     }
 
-/*
+
     rectangle rect;
     carre c;
     rect.setLargeur(4);
