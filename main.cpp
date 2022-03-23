@@ -12,9 +12,14 @@ int main() {
     carre * c = new carre;
     c->setCote(5);
     f.inserer(c);
+    rectangle * r = new rectangle;
+    r->setLargeur(5);
+    r->setLongeur(2);
+    f.inserer(r);
     f.valeur()->afficherCaracteristiques();
     f.supprimer(1);
-    //std::cout << f.valeur() << std::endl;
+    f.valeur()->afficherCaracteristiques();
+
     delete c;
     /*
     figure ** tableau = new figure*[10];

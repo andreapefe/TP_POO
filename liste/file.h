@@ -43,6 +43,7 @@ public:
         if (nb > nbElement){
             std::cout << "ELEMENT NON EXISTANT" << std::endl;
         }
+
         else {
             if (nbElement == 0){
                 std::cout << "FILE VIDE" << std::endl;
@@ -52,14 +53,21 @@ public:
                 dernier = NULL;
                 aux->next = NULL;
                 nbElement = 0;
-            } else {
-                //Supprime element quelconque
+            } else if (nb == 1) {
                 cellule<T> * aux = premier;
                 premier = premier->next;
                 aux->next = NULL;
                 nbElement--;
-                dernier = NULL;
-                nbElement = 0;
+            } else {
+                cellule<T> * aux = premier;
+                //Supprime element quelconque
+                for(int i=2; i<nb; i++){
+                    aux = aux->next;
+                }
+                cellule<T> * aux_elim = aux->next;
+                aux->next = aux_elim->next;
+                aux_elim->next = NULL;
+                nbElement--;
             }
         }
 
